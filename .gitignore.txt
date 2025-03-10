@@ -1,0 +1,17 @@
+# Ignorer les fichiers Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorer l'environnement virtuel
+venv/
+
+# Ignorer les fichiers Django spécifiques
+*.log
+db.sqlite3
+
+# Ignorer les fichiers de configuration IDE (par exemple VSCode)
+.vscode/
+
+# Ignorer les fichiers de configuration de PyCharm
+.idea/
